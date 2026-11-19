@@ -1,19 +1,3 @@
-# ATM Simulation Mini Project
-
-# Here is a simple beginner-friendly ATM simulation project with
-# PIN verification, balance inquiry, deposit, withdrawal, and exit.
-
-# ATM Simulation - Python Mini Project
-# Python concepts used:
-
-# while loops
-# if-elif-else
-# Variables
-# input() and print()
-# Exception handling with try-except
-# Arithmetic operations
-# String formatting
-
 balance = 10000
 correct_pin = "1234"
 
@@ -81,7 +65,7 @@ else:
                 print("Please enter valid number.")
 
         elif choice == 4:
-            print"\nThank You for using or ATM!")
+            print("\nThank You for using or ATM!")
             print("Please Collect Your Card.")
             break
         else:
