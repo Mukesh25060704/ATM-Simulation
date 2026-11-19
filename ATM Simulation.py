@@ -47,7 +47,7 @@ else:
         print("4. Exit")
         print("==================================")
 
-        choice = input("Enter your Choice: "))
+        choice = input("Enter your Choice: ")
 
         if choice == 1:
             print(f"Your Current balance is ${balance:.2f}")
